@@ -119,4 +119,4 @@ action:
         url: >-
           {{base_url}}/api/frigate/notifications/{{id}}/{{camera}}/clip.mp4
     until: '{{ wait.trigger.payload_json[''type''] == ''end'' }}'
-    ```
+```
